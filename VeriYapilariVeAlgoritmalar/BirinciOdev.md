@@ -19,7 +19,7 @@ O(n)
 ### Dizi sıralandıktan sonra 18 sayısının gireceği case kapsamı
 Average case
 ## Proje 2
-### [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını
+### [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımı
 - [2,3,5,8,7,9,4,15,6]
 - [2,3,4,8,7,9,5,15,6]
 - [2,3,4,5,7,9,8,15,6]
