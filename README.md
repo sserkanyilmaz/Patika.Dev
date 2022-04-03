@@ -20,6 +20,3 @@ code .
 
 ## License
 [MIT](LICENSE)
-
-### Örnek Görsel
-![Örnek Proje Görseli](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/github.png)
