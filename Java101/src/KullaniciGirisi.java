@@ -9,20 +9,21 @@ public class KullaniciGirisi {
         password=scanner.nextLine();
         if (userName.equals("patika")&&password.equals("java123"))
             System.out.println("Giris Yaptınız !");
-        else if(userName.equals("patika"))
+        else if(userName.equals("patika")&&!password.equals("java123"))
         {
-            if (!password.equals("java123"))
+            System.out.println("Şifreniz Yanlış Sıfırlamak İçin sifirla Yazınız");
+            karar=scanner.nextLine();
+            if(karar.equals("sifirla"))
             {
-                System.out.println("Şifreniz Yanlış Sıfırlamak İçin sifirla Yazınız");
-                karar=scanner.nextLine();
-                if(karar=="sifirla"){
-                    System.out.println("Yeni Sifre Giriniz : ");
-                    newPassword=scanner.nextLine();
-                    if(newPassword==password)
-                        System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
-                    else{
-                        System.out.println("Şifre oluşturuldu" );
-                    }
+                System.out.println("Yeni Sifre Giriniz : ");
+                newPassword=scanner.nextLine();
+                if (!newPassword.equals(password))
+                {
+                    password = newPassword ;
+                    System.out.println("Şifreniz Değiştirilmiştir");
+                } else
+                {
+                    System.out.println("Yeni Şifreniz Eski şifrenizle aynı olamaz");
                 }
             }
         }
