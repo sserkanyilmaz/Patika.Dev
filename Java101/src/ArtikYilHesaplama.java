@@ -3,7 +3,7 @@ public class ArtikYilHesaplama {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int yil;
-        System.out.println("Yıl giriniz :" );
+        System.out.println("Yıl giriniz : " );
         yil=scanner.nextInt();
             if(yil%4==0)
             {
