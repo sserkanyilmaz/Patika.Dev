@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EbokEkok {
+public class EbobEkok {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int sayi1,sayi2,kontrol,enBuyukBolen=0,enKucukBolen=0;
