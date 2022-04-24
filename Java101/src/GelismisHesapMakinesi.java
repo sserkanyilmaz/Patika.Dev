@@ -25,8 +25,9 @@ public class GelismisHesapMakinesi {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
         while (true) {
-            System.out.print(i++ + ". sayı :");
+            System.out.print(i + ". sayı :");
             number = scan.nextInt();
+            i++;
             if (number == 0) {
                 break;
             }
