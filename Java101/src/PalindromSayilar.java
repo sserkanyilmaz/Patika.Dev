@@ -5,21 +5,16 @@ public class PalindromSayilar {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayi Giriniz : ");
         sayi = input.nextInt();
-        isPalindrom(sayi);
-    }
-    static boolean isPalindrom(int number) {
-        int tempNumber = number, reverseNumber = 0, lastNumber;
+        int tempNumber = sayi, reverseNumber = 0, lastNumber;
         while (tempNumber != 0) {
             lastNumber = tempNumber % 10;
             reverseNumber = (reverseNumber * 10) + lastNumber;
             tempNumber /= 10;
         }
-        if (reverseNumber == number) {
-            System.out.println(number + " Palindrom Sayıdır");
-            return true;
+        if (reverseNumber == sayi) {
+            System.out.println(sayi + " Palindrom Sayıdır");
         } else {
-            System.out.println(number + " Palindrom Sayı Değildir");
-            return false;
+            System.out.println(sayi + " Palindrom Sayı Değildir");
         }
     }
 }
