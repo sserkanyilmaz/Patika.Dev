@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class PalindromSayilar {
     public static void main(String[] args) {
         int sayi;
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Sayi Giriniz : ");
-        sayi = input.nextInt();
+        sayi = scanner.nextInt();
         int tempNumber = sayi, reverseNumber = 0, lastNumber;
         while (tempNumber != 0) {
             lastNumber = tempNumber % 10;
