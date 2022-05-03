@@ -5,7 +5,7 @@
 Öncelikle projeyi klonlamanız gerekiyor.
 
 ```
-git clone https://github.com/sserkanyilmaz/kodluyoruzilkrepo
+git clone https://github.com/sserkanyilmaz/Patika.Dev
 
 ```
 ## Usage
