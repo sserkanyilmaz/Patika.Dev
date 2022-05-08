@@ -5,9 +5,9 @@ public class PalindromSayilar {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Sayi Giriniz : ");
         sayi = scanner.nextInt();
-        PolidromMu(sayi);
+        polidromMu(sayi);
     }
-    static void PolidromMu(int sayi)
+    static void polidromMu(int sayi)
     {
         int tempNumber = sayi, reverseNumber = 0, lastNumber;
         while (tempNumber != 0) {

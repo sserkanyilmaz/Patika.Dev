@@ -4,9 +4,9 @@ public class RekursifAsal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number=scanner.nextInt();
-        boolean result=AsalMi(number,2);
+        boolean result=asalMi(number,2);
     }
-    static boolean AsalMi(int number,int i){
+    static boolean asalMi(int number,int i){
         boolean result;
         if (i >= number) {
             System.out.println(number + " sayisi ASALDIR !");
@@ -15,7 +15,7 @@ public class RekursifAsal {
             System.out.println(number + " sayisi ASAL değildir !");
             result = false;
         } else {
-            result = AsalMi(number, i + 1);
+            result = asalMi(number, i + 1);
         }
         return result;
     }
