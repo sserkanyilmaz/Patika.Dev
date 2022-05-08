@@ -14,22 +14,23 @@ public class Main {
         kimya.addTeacher(t3);
 
         Student s1= new Student("Serkan","4",1,mat,fizik,kimya);
-        s1.addBulkExamNote(50,50,89);
+        s1.addBulkExamNote(65,60,50);
         Student s2= new Student("Zafer","4",2,mat,fizik,kimya);
-        s2.addBulkExamNote(45,67,80);
+        s2.addBulkExamNote(88,80,10);
         Student s3= new Student("Osman","4",3,mat,fizik,kimya);
-        s3.addBulkExamNote(100,50,50);
-        t1.addVerbalNote(s1,40);
-        t1.addVerbalNote(s2,45);
-        t1.addVerbalNote(s3,80);
+        s3.addBulkExamNote(55,70,50);
 
-        t2.addVerbalNote(s1,87);
-        t2.addVerbalNote(s2,45);
-        t2.addVerbalNote(s3,76);
+        t1.addVerbalNote(s1,52);
+        t1.addVerbalNote(s2,76);
+        t1.addVerbalNote(s3,46);
 
-        t3.addVerbalNote(s1,55);
-        t3.addVerbalNote(s2,60);
-        t3.addVerbalNote(s3,100);
+        t2.addVerbalNote(s1,46);
+        t2.addVerbalNote(s2,75);
+        t2.addVerbalNote(s3,43);
+
+        t3.addVerbalNote(s1,87);
+        t3.addVerbalNote(s2,24);
+        t3.addVerbalNote(s3,57);
 
         s1.isPass();
         s2.isPass();

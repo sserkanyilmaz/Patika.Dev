@@ -44,9 +44,9 @@ public class Student {
         }
     }
     public void calcAverage(){
-        this.average=(((this.fizik.note/100*80)+(this.fizikVerbalNote)/100*20)+
-                ((this.mat.note/100*80)+(this.matVerbalNote)/100*20)+
-                ((this.kimya.note/100*80)+(this.kimyaVerbalNote)/100*20))/3;
+        this.average=(((this.fizik.note*0.8)+(this.fizikVerbalNote)*0.2)+
+                ((this.mat.note*0.8)+(this.matVerbalNote)*0.2)+
+                ((this.kimya.note*0.8)+(this.kimyaVerbalNote)*0.2))/3;
     }
     public boolean isCheckPass(){
         calcAverage();
