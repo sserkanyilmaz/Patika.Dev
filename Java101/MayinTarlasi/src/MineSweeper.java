@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-
 public class MineSweeper {
     int satir;
     int sutun;
@@ -8,6 +7,18 @@ public class MineSweeper {
     char[][] tempTarla;
     Random rand= new Random();
     Scanner scanner = new Scanner(System.in);
+    public void run(){
+        System.out.println("kac satir olsun : ");
+        this.satir=scanner.nextInt();
+        System.out.println("kac sutun olsun : ");
+        this.sutun=scanner.nextInt();
+        this.tarlaBelirle(this.satir, this.sutun);
+        this.tarlaHazirla();
+        this.tarlaYazdir();
+        this.mayinla();
+        this.tarlaYazdir();
+        this.secim();
+    }
     public void tarlaBelirle(int i,int j){
         tarla= new char[i+2][j+2];
         tempTarla= new char[i+2][j+2];
@@ -83,12 +94,13 @@ public class MineSweeper {
             }
             deger=(char)(bombaSayisi+'0');
             tempTarla[satir+1][sutun+1]=deger;
+            tarla[satir+1][sutun+1]=deger;
             this.tarlaYazdir();
             satir=satirAl();
             sutun=sutunAl();
             bombaSayisi=0;
             if(isWin()){
-                System.out.println("KAZANDİNİZZZZ !!!!!!!!!");
+                System.out.println("KAZANDINIZZZ !!!!!!!!!");
             }
         }
         if(tarla[satir+1][sutun+1]=='*'){
