@@ -96,13 +96,14 @@ public class MineSweeper {
             tempTarla[satir+1][sutun+1]=deger;
             tarla[satir+1][sutun+1]=deger;
             this.tarlaYazdir();
-            satir=satirAl();
-            sutun=sutunAl();
-            bombaSayisi=0;
             if(isWin()){
                 System.out.println("KAZANDINIZZZ !!!!!!!!!");
                 break;
             }
+            satir=satirAl();
+            sutun=sutunAl();
+            bombaSayisi=0;
+
         }
         if(tarla[satir+1][sutun+1]=='*'){
             System.out.println("Game over !!!!!");
