@@ -111,7 +111,7 @@ public class MineSweeper {
     {
         for(int i=1;i<this.satir+1;i++){
             for(int j=1;j<this.satir+1;j++)
-                if(tarla[i][j]=='-')
+                if(tempTarla[i][j]=='-')
                     return false;
         }
         return true;
@@ -120,7 +120,7 @@ public class MineSweeper {
         int satirr;
         System.out.println("hangi satir : ");
         satirr=scanner.nextInt();
-        if(satirr>this.satir){
+        if(satirr>this.satir-1){
             System.out.println("Tarlanin boyutunu astiniz !!!");
             return satirAl();
         }
@@ -130,7 +130,7 @@ public class MineSweeper {
         int sutunn;
         System.out.println("hangi sutun : ");
         sutunn=scanner.nextInt();
-        if(sutunn>this.sutun){
+        if(sutunn>this.sutun-1){
             System.out.println("Tarlanin boyutunu astiniz !!!");
             return satirAl();
         }
