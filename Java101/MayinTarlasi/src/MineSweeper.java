@@ -101,6 +101,7 @@ public class MineSweeper {
             bombaSayisi=0;
             if(isWin()){
                 System.out.println("KAZANDINIZZZ !!!!!!!!!");
+                break;
             }
         }
         if(tarla[satir+1][sutun+1]=='*'){
