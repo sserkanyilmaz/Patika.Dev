@@ -1,0 +1,16 @@
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.exe
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.deps.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.runtimeconfig.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.runtimeconfig.dev.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\bin\Debug\net5.0\DegiskenlerVeVeriTipleri.pdb
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.csproj.AssemblyReference.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.AssemblyInfoInputs.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.AssemblyInfo.cs
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.csproj.CoreCompileInputs.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\refint\DegiskenlerVeVeriTipleri.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.pdb
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\DegiskenlerVeVeriTipleri.genruntimeconfig.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp\DegiskenlerVeVeriTipleri\obj\Debug\net5.0\ref\DegiskenlerVeVeriTipleri.dll
