@@ -6,42 +6,31 @@ namespace Operatorler
     {
         static void Main(string[] args)
         {
-                int a = 8;
-        a+=2;
-        Console.WriteLine(a);
+           
+            int[] sayilar = {1, 2 ,3, 4, 5, 4 ,3, 2 ,1, 3, 4 };
 
-        a/=2;
-        Console.WriteLine(a);
+            int enbuyuksayi = 0;
 
-        bool isCompleted = true;
-        bool isSuccess = true;
+            for (int i = 0; i < 11; i++) // burda döngü 12 kere dönecek.
+            {
+            if (sayilar[i] > enbuyuksayi) // eğer sayıların i. elemanı yani o an i kaçsa o elemanı enbuyuksayi değişkeninden buyukse en buyuk sayı değişkenine o değer atanıyor.
+            {
+            enbuyuksayi = sayilar[i];
+            }
 
-        if(isCompleted && isSuccess) {
-            Console.WriteLine("Operation succesfully completed");
-        }
+            }
 
-        a = 5;
-        int b = 2;
+            int sayac = 0;
+            for (int j = 0; j < 11; j++) // burdaki dongude 12 kere dönecek çünkü dizi 12 elemanlı
+            {
+            if (enbuyuksayi == sayilar[j]) // eğer en buyuk sayı sayıların j.elemanına eşitse sayac 1 tane artacak.Böylece kaç kere en büyük sayı girildiği bu kodda oluyor
+            {
+            sayac++;
+            }
 
-        bool control = b < a;
-        Console.WriteLine(control);
+            }
 
-        a = 8;
-        b = 2;
-
-        int result = a*b;
-        Console.WriteLine(result);
-
-        result = a/b;
-        Console.WriteLine(result);
-
-        result = a % b;
-        Console.WriteLine(result);
-
-        double c = 5.0;
-        int f = 5;
-        double result3 = c+f;
-        Console.WriteLine(result3);
+            Console.WriteLine("{0} kere {1} girildi", sayac, enbuyuksayi);
         }
     }
-}
+} 
