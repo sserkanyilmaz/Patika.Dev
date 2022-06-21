@@ -1,0 +1,16 @@
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.exe
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.deps.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.runtimeconfig.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.runtimeconfig.dev.json
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\bin\Debug\net5.0\odev2.1.pdb
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.csproj.AssemblyReference.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.AssemblyInfoInputs.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.AssemblyInfo.cs
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.csproj.CoreCompileInputs.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\refint\odev2.1.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.pdb
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\odev2.1.genruntimeconfig.cache
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\CSharp101\odev2\odev2.1\obj\Debug\net5.0\ref\odev2.1.dll
