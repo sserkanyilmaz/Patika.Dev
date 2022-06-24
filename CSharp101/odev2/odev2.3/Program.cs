@@ -7,20 +7,20 @@ namespace odev2._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Cumle giriniz");
-            List<char> list = new List<char>();
-            string cumle = Console.ReadLine();
-            cumle.Split(" ");
-            for (int i = 0; i < cumle.Length; i++)
-            {
-                if(cumle[i]=='i'||cumle[i]=='a'||cumle[i]=='e'||cumle[i]=='u'||cumle[i]=='o')
-                    list.Add(cumle[i]);
+            int num=2222224;
+            string sonuc="true";
+            while(num>10){
+                if(num%2==1){
+                    sonuc="false";
+                    num=1;
+                }
+                else if(num%2==0)
+                {
+                    num/=10;
+                }
+                
             }
-            list.Sort();
-            foreach (var item in list)
-            {
-                Console.Write(item+" ");
-            }
+            System.Console.WriteLine(sonuc);
         }
     }
 }
