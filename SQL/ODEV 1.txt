@@ -1,0 +1,15 @@
+SELECT description,title from film;
+************************************************
+SELECT * from film
+where length<75 and length >60;
+************************************************
+SELECT * from film
+where rental_rate = 0.99 and replacement_cost = 12.99
+or replacement_cost= 28.99;
+************************************************
+SELECT * from customer
+where first_name='Mary'
+Cevap = Smith
+************************************************
+,SELECT * from film
+where not(length >50) and not (rental_rate =2.99 or rental_rate=4.99);
