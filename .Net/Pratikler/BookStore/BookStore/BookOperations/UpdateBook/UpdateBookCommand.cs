@@ -21,15 +21,11 @@ namespace WebApi.BookOperations.UpdateBook
             }
             ubm.Title=Model.Title!=default ? Model.Title:ubm.Title;
             ubm.GenreId=Model.GenreId!=default?Model.GenreId:ubm.GenreId;
-            ubm.PageCount=Model.PageCount!=default?Model.PageCount:ubm.PageCount;
-            ubm.PublishDate=Model.publishDate!=default?Model.publishDate:ubm.PublishDate;
             _context.SaveChanges();
         }
     }
     public class UpdateBookModel{
         public string Title { get; set; }
-        public int PageCount { get; set; }
-        public DateTime publishDate { get; set; }
         public int GenreId { get; set; }
     }
 }

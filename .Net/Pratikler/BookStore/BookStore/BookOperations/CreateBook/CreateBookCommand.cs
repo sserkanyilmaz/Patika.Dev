@@ -1,15 +1,18 @@
 using System;
 using System.Linq;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.DbOperations;
 
 namespace WebApi.BookOperations.CreateBook{
     public class CreateBookCommand{
         public CreateBookModel Model {get; set;}
+        private readonly IMapper _mapper;
         private readonly BookStoreDbContext _context;
-        public CreateBookCommand(BookStoreDbContext context)
+        public CreateBookCommand(BookStoreDbContext context, IMapper mapper)
         {
-            _context=context;
+            _context = context;
+            _mapper = mapper;
         }
         public void Handle()
         {
@@ -18,11 +21,8 @@ namespace WebApi.BookOperations.CreateBook{
             {
                 throw new InvalidOperationException("Kitap zaten mevcut");
             }
-            book=new Book();
-            book.Title=Model.Title;
-            book.PageCount=Model.PageCount;
-            book.PublishDate=Model.PublishDate;
-            book.GenreId=Model.GenreId;
+            book=_mapper.Map<Book>(Model);//new Book();
+
             _context.Books.Add(book);
             _context.SaveChanges();
         }

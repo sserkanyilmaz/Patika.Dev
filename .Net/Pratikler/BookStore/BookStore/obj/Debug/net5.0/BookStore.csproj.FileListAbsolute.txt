@@ -29,3 +29,6 @@ C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\book
 C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\serkan\Documents\GitHub\kodluyoruzilkrepo\.Net\Pratikler\BookStore\bookstore\bin\Debug\net5.0\FluentValidation.dll
