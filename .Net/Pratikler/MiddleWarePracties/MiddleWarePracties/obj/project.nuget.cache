@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YSZKmev0t+TRYqiEPeIWTHJ7u8WJ88BSrm9D+j4qOWyBWbtgSmEdAN2t2OeiyZyOo6rABk1UKInKqAJELprKYA==",
+  "dgSpecHash": "TBn6hie4K3q8NuMCjpeYAAI4foi0qdN1+fWZGAr/PSRrlKt8kV7QjvVyen/zUzHrKXZC1givOs34oULDCXHP3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\MiddleWarePracties.csproj",
+  "projectFilePath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\MiddleWarePracties.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serkan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\serkan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\MiddleWarePracties.csproj": {}
+    "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\MiddleWarePracties.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\MiddleWarePracties.csproj": {
+    "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\MiddleWarePracties.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\MiddleWarePracties.csproj",
+        "projectUniqueName": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\MiddleWarePracties.csproj",
         "projectName": "MiddleWarePracties",
-        "projectPath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\MiddleWarePracties.csproj",
+        "projectPath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\MiddleWarePracties.csproj",
         "packagesPath": "C:\\Users\\serkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\middlewarepracties\\obj\\",
+        "outputPath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\MiddleWarePracties\\MiddleWarePracties\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
