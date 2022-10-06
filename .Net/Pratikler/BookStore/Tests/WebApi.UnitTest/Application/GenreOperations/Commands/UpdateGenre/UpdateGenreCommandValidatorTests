@@ -1,0 +1,27 @@
+using FluentAssertions;
+using TestSetup;
+using WebApi.Application.Commands.BookOperations.UpdateBook;
+using WebApi.Application.GenreOperation.Command.UpdateGenre;
+
+namespace Application.BookOperation.Commands.UpdateBook
+{
+    public class UpdateGenreCommandValidatorTests : IClassFixture<CommonTestFixture>{
+        [Theory]
+        [InlineData("a")]
+        [InlineData("aaa")]
+        [InlineData("aaaa")]
+        [InlineData("aa")]
+        [InlineData("")]
+        public void WhenNewGenreNameIsLessThan4Character_Validator_ReturnError(string title)
+        {
+            UpdateGenreCommand command = new UpdateGenreCommand(null);
+            command.GenreId=1;
+            command.Model= new UpdateGenreModel{
+                Name=title
+            };
+            UpdateGenreCommandValidator validator = new UpdateGenreCommandValidator();
+            var result = validator.Validate(command);
+            result.Errors.Count.Should().BeGreaterThan(0);
+        }
+    }
+}

@@ -7,12 +7,12 @@ using WebApi.Common;
 using WebApi.DbOperations;
 
 namespace Web.Application.Queries.BookOperations.GetById{
-    public class GetByIdCommand{
+    public class GetByIdQuery{
         public BookDetailModel Model {get; set;}
         public int BookId {get; set;}
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
-        public GetByIdCommand(BookStoreDbContext context, IMapper mapper)
+        public GetByIdQuery(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1/NChRwFcKprKhZimYbkRdCkiV89OyhoNxP3TzcBwJ1ZYi0hvqo53y/66WZV0iIXKWBmjgp0zQCwY94EKgffWw==",
+  "dgSpecHash": "kk6ZlyrrnAtFFiTrMk49MYfs1I0ueqgNN/hRJ4YJnRK4pqejpMjYy/7VCCUyqf1ElKUIX7yEBByyUxwe8AMcZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\BookStore\\bookstore\\BookStore.csproj",
+  "projectFilePath": "c:\\Users\\serkan\\Documents\\GitHub\\kodluyoruzilkrepo\\.Net\\Pratikler\\BookStore\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serkan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\serkan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

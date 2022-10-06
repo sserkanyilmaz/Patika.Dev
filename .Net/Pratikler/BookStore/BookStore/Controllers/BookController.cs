@@ -17,9 +17,9 @@ namespace WebApi.Controllers{
     [ApiController]
     [Route("[controller]s")]
     public class BookController : ControllerBase{
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper  _mapper;
-        public BookController(BookStoreDbContext context, IMapper mapper)
+        public BookController(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -35,7 +35,7 @@ namespace WebApi.Controllers{
         public IActionResult GetById(int id)
         {
             BookDetailModel result;
-                GetByIdCommand query = new GetByIdCommand(_context,_mapper);
+            GetByIdQuery query = new GetByIdQuery(_context,_mapper);
                 GetByIdCommandValidator validator = new GetByIdCommandValidator();
                 query.BookId=id;
                 validator.ValidateAndThrow(query);

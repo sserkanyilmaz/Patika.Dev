@@ -5,8 +5,8 @@ using WebApi.DbOperations;
 namespace WebApi.Application.GenreOperation.Command.DeleteGenre{
     public class DeleteGenreCommand{
         public int GenreId {get; set;}
-        private readonly BookStoreDbContext _context;
-        public DeleteGenreCommand(BookStoreDbContext context)
+        private readonly IBookStoreDbContext _context;
+        public DeleteGenreCommand(IBookStoreDbContext context)
         {
             _context = context;
         }

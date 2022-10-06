@@ -7,25 +7,25 @@ namespace WebApi.Application.AuthorOperation.Queries.GetAuthorDetail
 {
     public class GetAuthorQuery{
         public int AuthorId { get; set; }
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
-        public GetAuthorQuery(BookStoreDbContext context, IMapper mapper)
+        public GetAuthorQuery(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        public AuthotDetailModel Handle()
+        public AuthorDetailModel Handle()
         {
             var author = _context.Authors.SingleOrDefault(x=>x.AuthorId==AuthorId);
             if (author is null)
             {
-                throw new InvalidOperationException("Yazar bulunamadi");
+                throw new InvalidOperationException("Yazar bulunamadı");
             }
-            AuthotDetailModel returnobj = _mapper.Map<AuthotDetailModel>(author);
+            AuthorDetailModel returnobj = _mapper.Map<AuthorDetailModel>(author);
             return returnobj;
         }
     }
-    public class AuthotDetailModel{
+    public class AuthorDetailModel{
         public string Name { get; set; }
         public string Surname { get; set; }
         public DateTime Birthday { get; set; }

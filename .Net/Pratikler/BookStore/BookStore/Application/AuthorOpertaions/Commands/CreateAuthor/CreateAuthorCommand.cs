@@ -6,16 +6,16 @@ using WebApi.Entities;
 
 namespace WebApi.Application.AuthorOperation.Commands.CreateAuthor{
     public class CreateAuthorCommand{
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
         public CreateAuthorModel Model {get; set;}
-        public CreateAuthorCommand(BookStoreDbContext context, IMapper mapper)
+        public CreateAuthorCommand(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
         public void Handle(){
-            var author = _context.Authors.SingleOrDefault(x=>x.Name==Model.Name&&x.Surname==Model.Surname);
+            var author = _context.Authors.FirstOrDefault(x=>x.Name==Model.Name&&x.Surname==Model.Surname);
             if(author is not null)
             {
                 throw new InvalidOperationException("Aynı isim ve soyisime sahip yazar bulunmaktadır");
@@ -32,3 +32,4 @@ namespace WebApi.Application.AuthorOperation.Commands.CreateAuthor{
         public DateTime Birthday { get; set; }
     }
 }
+//veri yarat command çagır kurallarını yaz
